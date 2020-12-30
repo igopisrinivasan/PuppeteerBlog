@@ -1,23 +1,14 @@
 {
-  "name": "PuppeteerBlog",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/igopisrinivasan/PuppeteerBlog.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/igopisrinivasan/PuppeteerBlog/issues"
-  },
-  "homepage": "https://github.com/igopisrinivasan/PuppeteerBlog#readme",
+    "jest": {
+        "preset": "jest-puppeteer"
+    },
     "devDependencies": {
-    "puppeteer": "^5.5.0"
-  }
+        "@types/jest": "^26.0.19",
+        "apify": "^0.22.2",
+        "jest": "^26.6.3",
+        "puppeteer": "5.5.0",
+        "puppeteer-to-istanbul": "^1.4.0",
+        "jest-puppeteer": "4.4.0",
+        "cucumber": "5.1.0"
+    }
 }
